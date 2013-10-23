@@ -5714,7 +5714,7 @@ a.badge:focus {
 .badge-inverse {
   background-color: #333333;
 }
-
+ 
 .label-inverse[href],
 .badge-inverse[href] {
   background-color: #1a1a1a;
@@ -6098,11 +6098,21 @@ a.badge:focus {
   right: 0;
   bottom: 0;
   left: 0;
+  top: 100px;
   padding: 15px;
-  background: #333333;
+  /*background: #333333;*/
   background: rgba(0, 0, 0, 0.75);
 }
 
+/*
+.carousel-caption {
+  background-color: transparent; 
+  position: static;
+  max-width: 550px;
+  padding: 0 20px;
+  margin-top: 200px;
+}
+*/
 .carousel-caption h4,
 .carousel-caption p {
   line-height: 20px;
