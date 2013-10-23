@@ -437,6 +437,7 @@ p small {
 /*}*/
 
 .lead {
+  position: relative;
   margin-top: 170px;
   margin-left: 60px;
   font-size: 20px;
@@ -4951,6 +4952,7 @@ a.badge:hover {
   background-color: transparent;
   position: absolute;
   max-width: 550px;
+  height: 30px;
   padding: 0 20px;
   margin-top: 200px;
 }
@@ -4961,7 +4963,7 @@ a.badge:hover {
   color: #fff;
   position: absolute;
   /*max-width: 1000px;*/
-  width: 550px;
+  width: 600px;
   padding: 0 20px;
   margin-top: 100px;
   margin-left: 40px;
