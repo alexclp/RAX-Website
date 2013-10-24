@@ -4946,7 +4946,9 @@ a.badge:hover {
 */
 
 .carousel-image {
-  height: 853px;
+  /*height: 853px;*/
+  max-height: 100%;
+  /*opacity: 0.7;*/
 }
 
 .carousel-caption {
@@ -4965,6 +4967,10 @@ a.badge:hover {
 .carousel-caption h1,
 .carousel-caption lead {
   font-weight: bold;
+  /*color: #fff;*/
+  /*color: #dadae3;*/
+  /*color: #a69eb0;*/
+  /*color: #444444;*/
   color: #fff;
   position: absolute;
   /*max-width: 1000px;*/
@@ -4976,7 +4982,10 @@ a.badge:hover {
 
 .carousel-caption h4,
 .carousel-caption p {
-  color: #ffffff;
+  /*color: #ffffff;*/
+  /*color: #444444;*/
+  /*color: #a69eb0;*/
+  color: #fff;
 }
 
 .carousel-button {
