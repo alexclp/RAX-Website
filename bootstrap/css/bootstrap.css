@@ -657,6 +657,7 @@ p {
   font-size: 21px;
   font-weight: 200;
   line-height: 30px;
+  position: relative;
 }
 
 small {
@@ -6035,7 +6036,7 @@ a.badge:focus {
 }
 
 .carousel-control {
-  position: absolute;
+  position: relative;
   top: 40%;
   left: 15px;
   width: 40px;
@@ -6115,6 +6116,7 @@ a.badge:focus {
 */
 .carousel-caption h4,
 .carousel-caption p {
+  position: relative;
   line-height: 20px;
   color: #ffffff;
 }

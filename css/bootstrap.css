@@ -438,9 +438,10 @@ p small {
 
 .lead {
   position: relative;
-  margin-top: 170px;
+  margin-top: 110px;
   margin-left: 60px;
   font-size: 20px;
+  color: #808080;
 }
 
 h1,
@@ -4944,6 +4945,10 @@ a.badge:hover {
 }
 */
 
+.carousel-image {
+  height: 853px;
+}
+
 .carousel-caption {
   right: 0;
   left: 0;
@@ -4965,7 +4970,7 @@ a.badge:hover {
   /*max-width: 1000px;*/
   width: 600px;
   padding: 0 20px;
-  margin-top: 100px;
+  /*margin-top: 100px;*/
   margin-left: 40px;
 }
 
