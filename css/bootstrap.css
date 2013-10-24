@@ -4986,6 +4986,8 @@ a.badge:hover {
   /*color: #444444;*/
   /*color: #a69eb0;*/
   color: #fff;
+  /*background-color: black;*/
+  font-weight: thin;
 }
 
 .carousel-button {
