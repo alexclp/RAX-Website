@@ -14,12 +14,12 @@
 
 /* Give some space on the sides of the floated elements so text doesn't run right into it. */
 .featurette-image.pull-left {
-  margin-right: 100px;
+  /*margin-right: 100px;*/
   margin-bottom: 10px;
 }
 .featurette-image.pull-right {
-  margin-left: 100px;
-  margin-right: 100px;
+  /*margin-left: 100px;*/
+  /*margin-right: 100px;*/
   margin-bottom: 10px;
 }
 
