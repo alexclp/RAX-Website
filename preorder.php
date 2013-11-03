@@ -15,8 +15,7 @@ function InsertData()
 	$payment = $_REQUEST['payment'];
 	$city = $_REQUEST['city'];
 	$address = $_REQUEST['address'];
-	$postalCode = $_REQUEST['postalCode'];
-	$county = $_REQUEST['county'];
+	$zip = $_REQUEST['zip'];
 	$country = $_REQUEST['country'];
 
 	$sql = ""; // Insert statement (has to be done)
