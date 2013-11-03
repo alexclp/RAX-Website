@@ -58,10 +58,122 @@
       </div><!-- /.navbar-inner -->
     </div><!-- /.navbar -->
 
+    <div class="container">
+      <div class="row">
+        <div class="span8">
+          <form action="insertdata" method="post" class="form-horizontal" id="registrationform" accept-charset="utf-8">
+            <div class="control-group">
+              <label for="fullname" class="control-label">
+                Your full name:
+              </label>
+              <div class="controls">
+                <input name="fullName" type="text" value="" id="fullName">
+                <span class="help-inoptionne">To whom should we send the device?</span>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label for="email" class="control-label">
+                Your e-mail address:
+              </label>
+              <div class="controls">
+                <input name="email" type="email" value="" id="email">
+                <span class="help-inoptionne">Where should we send invoices?</span>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label for="makeName" class="control-label">
+                Make name:
+              </label>
+              <div class="controls">
+                <select name="makeName" id="makeName">
+                  <option value=""></option>
+                  <option value="Acura">Acura</option>
+                  <option value="Alfa Romeo">Alfa Romeo</option>
+                  <option value="Aston Martin">Aston Martin</option>
+                  <option value="Audi">Audi</option>
+                  <option value="Bentley">Bentley</option>
+                  <option value="BMW">BMW</option>
+                  <option value="Cadillac">Cadillac</option>
+                  <option value="Chevrolet">Chevrolet</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Citroen">Citroën</option>
+                  <option value="Dacia">Dacia</option>
+                  <option value="Daewoo">Daewoo</option>
+                  <option value="Daihatsu">Daihatsu</option>
+                  <option value="Dodge">Dodge</option>
+                  <option value="Ferrari">Ferrari</option>
+                  <option value="Fiat">Fiat</option>
+                  <option value="Ford">Ford</option>
+                  <option value="Geely">Geely</option>
+                  <option value="GWM">GWM</option>
+                  <option value="Honda">Honda</option>
+                  <option value="Hummer">Hummer</option>
+                  <option value="Hyundai">Hyundai</option>
+                  <option value="Infiniti">Infiniti</option>
+                  <option value="Isuzu">Isuzu</option>
+                  <option value="Jaguar">Jaguar</option>
+                  <option value="Jeep">Jeep</option>
+                  <option value="Kia">Kia</option>
+                  <option value="Lamborghini">Lamborghini</option>
+                  <option value="Lancia">Lancia</option>
+                  <option value="Land Rover">Land Rover</option>
+                  <option value="Lexus">Lexus</option>
+                  <option value="Lincoln">Lincoln</option>
+                  <option value="Lotus">Lotus</option>
+                  <option value="Maserati">Maserati</option>
+                  <option value="Maybach">Maybach</option>
+                  <option value="Mazda">Mazda</option>
+                  <option value="Mclaren">McLaren</option>
+                  <option value="Mercedes">Mercedes-Benz</option>
+                  <option value="MG">MG</option>
+                  <option value="Mini">Mini</option>
+                  <option value="Mitsubishi">Mitsubishi</option>
+                  <option value="Nissan">Nissan</option>
+                  <option value="Opel">Opel</option>
+                  <option value="Peugeot">Peugeot</option>
+                  <option value="Pontiac">Pontiac</option>
+                  <option value="Porsche">Porsche</option>
+                  <option value="Renault">Renault</option>
+                  <option value="Rolls-Royce">Rolls-Royce</option>
+                  <option value="Rover">Rover</option>
+                  <option value="Saab">Saab</option>
+                  <option value="Seat">Seat</option> 
+                  <option value="Smart">Smart</option>
+                  <option value="SsangYong">SsangYong</option>
+                  <option value="Subaru">Subaru</option> 
+                  <option value="Suzuki">Suzuki</option>
+                  <option value="Skoda">Škoda</option>
+                  <option value="Tata">Tata</option>
+                  <option value="Toyota">Toyota</option>
+                  <option value="Vauxhall">Vauxhall</option>
+                  <option value="Volkswagen">Volkswagen</option>
+                  <option value="Volvo">Volvo</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="control-group">
+
+              <label for="carYear" class="control-label">
+                Your car year:
+              </label>
+              <div class="controls">
+                <select name="carYear" id="carYear">
+                  <option value=""></option>
+                  <option value="least">Before 2006</option>
+                  <option value="greatest">After 2006</option>
+                </select>
+              </div>
+
+            </div>
+
+
     <!-- Le javascript
     ================================================== -->
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/optionbs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
     <!-- Bootstrap jQuery plugins compiled and minified -->
     <script src="js/bootstrap.min.js"></script>
