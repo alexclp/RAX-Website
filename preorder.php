@@ -31,3 +31,10 @@ function InsertData()
 	mssql_close();
 	echo "Data successufully inserted!";
 }
+
+function CreateDatabase()
+{
+
+}
+
+?>
