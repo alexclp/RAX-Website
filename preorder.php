@@ -1,39 +1,32 @@
 <?php
-function InsertData()
+
+function getValues()
 {
-	$link = msql_connect();
+	$parts = parse_url($url);
+	parse_str($parts['query'], $query);
 
-	if (!$link || !mssql_select_db('php', $link))
-	{
-		die("Unable to connect or select the database!");
-	}
+	$fullName = query['fullName'];
+	$email = query['email'];
+	$makeName = query['makeName'];
+	$payment = query['paymet'];
+	$address = query['address'];
+	$zip = query['zip'];
+	$city = query['city'];
+	$country = query['country'];
 
-	$fullName = $_REQUEST['fullName'];
-	$email = $_REQUEST['email'];
-	$makeName = $_REQUEST['makeName'];
-	$carYear = $_REQUEST['carYear'];
-	$payment = $_REQUEST['payment'];
-	$city = $_REQUEST['city'];
-	$address = $_REQUEST['address'];
-	$zip = $_REQUEST['zip'];
-	$country = $_REQUEST['country'];
+	/*
+	SAMPLE URL
 
-	$sql = ""; // Insert statement (has to be done)
-	$result = mssql_query($sql, $link);
+	file:///Users/alexclp/Desktop/RAX-Website/preoder.php?fullName=Alexandru+
+	Clapa&email=alexandru.clapa%40gmail.com&makeName=Audi&carYear=greatest&payment=creditcard&
+	address=Aleea+Valea+Florilor+nr+8%2C+Bl+Z10%2C+ap+41%2C+Sector+6%2C+Bucuresti&zip=061578
+	&city=Bucharest&country=RO
 
-	if (!$result) 
-	{
-		echo mssql_error();
-		exit;
-	}
-	mssql_free_result($result);
-	mssql_close();
-	echo "Data successufully inserted!";
+	*/
+
+	echo $city;
 }
 
-function CreateDatabase()
-{
-
-}
+getValues();
 
 ?>
