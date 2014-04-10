@@ -1,71 +1,42 @@
+
 <?php
-
-function getValues()
-{
-	$parts = parse_url($url);
-	parse_str($parts['query'], $query);
-
-	$fullName = query['fullName'];
-	$email = query['email'];
-	$makeName = query['makeName'];
-	$payment = query['paymet'];
-	$address = query['address'];
-	$zip = query['zip'];
-	$city = query['city'];
-	$country = query['country'];
-
-	/*
-	SAMPLE URL
-
-	file:///Users/alexclp/Desktop/RAX-Website/preoder.php?fullName=Alexandru+
-	Clapa&email=alexandru.clapa%40gmail.com&makeName=Audi&carYear=greatest&payment=creditcard&
-	address=Aleea+Valea+Florilor+nr+8%2C+Bl+Z10%2C+ap+41%2C+Sector+6%2C+Bucuresti&zip=061578
-	&city=Bucharest&country=RO
-
-	*/
-
-	echo $city;
-}
-
-getValues();
-
-/*
-
 //conexiunea la baza de date
-$mysqli = new mysqli(host, username, parola, numeDB);
+
+$db = new mysqli('localhost', 'root', 'root', 'Database');
 
 //insereaza in tabel (dai numele tabelului)
 //fullName, email, makeName, etc.. sunt numele fiecarei coloane din tabelul in care inserezi
 //apoi sunt valorile care se insereaza in coloane, prima valoare in prima coloana si asa mai departe
 //exemplu: prima valoare '$_POST[fullName]' se insereaza in prima coloana 'fullName'
 
-$queryString = ("INSERT INTO NumeleTabelului (fullName, email, makeName, paymment, adress, zip, city, country)
+$queryString = "INSERT INTO Preorder (FullName, email, makeName, payment, address, zip, city, country)
 	VALUES (
 		'$_POST[fullName]', 
 		'$_POST[email]', 
 		'$_POST[makeName]', 
-		'$_POST[paymment]', 
-		'$_POST[adress]', 
+		'$_POST[payment]', 
+		'$_POST[address]', 
 		'$_POST[zip]', 
 		'$_POST[city]', 
 		'$_POST[country]'
 	)";
 	
-$statement = $mysqli->prepare($con, $queryString);
+//$statement = $mysqli->prepare($con, $queryString);
+$statement = $db->prepare($queryString);
 $statement->execute();
 	
 // daca primesti valorile ca parametrii
-
+/*
 $fullName = $_POST[fullName];
 $email = $_POST[email];
-$makeName = $_POST[makeName]];
+$makeName = $_POST[makeName];
 $payment = $_POST[payment];
 $address = $_POST[address];
 $zip = $_POST[zip];
 $city = $_POST[city];
 $country = $_POST[country];
 
-$queryString = "INSERT INTO NumeleTabelului (fullName, email, makeName, paymment, adress, zip, city, country)
+$queryString = "INSERT INTO Preorder (FullName, email, makeName, payment, address, zip, city, country)
 	VALUES (
 		'" . $fullName . "', 
 		'" . $email . "', 
@@ -79,7 +50,6 @@ $queryString = "INSERT INTO NumeleTabelului (fullName, email, makeName, paymment
 	
 $statement = $mysqli->prepare($con, $queryString);
 $statement->execute();
-
 */
 
 /*
@@ -135,9 +105,7 @@ mail($to, $subject, $message, $headers);
 //exemplu: mail($to, $subject, $message, $headers, $parameters);
 
 //daca nu merge atunci folosesti scriptul pentru inserare in baza de date de mai sus
-
 */
-
 ?> 
 
 
