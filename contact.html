@@ -62,17 +62,17 @@
     <div class = "containter">
       <div class = "row">
         <div class = "span8">
-          <form class="well span8">
+          <form class="well span8" action="contact.php" method="POST" class="form-horizontal" id="registrationform" accept-charset="utf-8">
             <div class="row">
               <div class="span3">
                 <label>First Name</label>
-                <input type="text" class="span3" placeholder="Your First Name">
+                <input name="first_name" type="text" value="" id="first_name" placeholder="John">
                 <label>Last Name</label>
-                <input type="text" class="span3" placeholder="Your Last Name">
+                <input name="last_name" type="text" value="" id="last_name" placeholder="Smith">
                 <label>Email Address</label>
-                <input type="text" class="span3" placeholder="Your email address">
+                <input name="email" type="text" value="" id="email" placeholder="john@smith.com">
                 <label>Subject
-                  <select id="subject" name="subject" class="span3">
+                  <select name="subject" id="subject" class="span3">
                     <option value="na" selected="">Choose One:</option>
                     <option value="service">General Customer Service</option>
                     <option value="suggestions">Suggestions</option>
