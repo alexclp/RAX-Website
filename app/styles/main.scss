@@ -1,0 +1,31 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+
+// bower:scss
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+// endbower
+
+/* Custom page header */
+#logo{
+    max-height: 40px;
+    margin-top: -10px;
+}
+/*Main Page*/
+.carousel{
+    margin-top: -20px;
+    .carousel-caption{
+    	padding: 40px;
+    	background-color: rgba(black, 0.2);
+    }
+    .carouselButton{
+    	padding: 0px 10px;
+		height: 40px;
+
+    }
+    @media (max-width: 600px){
+    	.carousel-caption{
+    		display:none;
+    	}
+    }
+}
