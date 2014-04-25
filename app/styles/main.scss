@@ -6,13 +6,26 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
+//webfonts
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body{
+    font-family: 'Roboto', 'sans-serif';
+}
+
 /* header */
+.navbar li a{
+    height: 58px;
+}
 #logo{
     max-height: 40px;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 .navigationButton{
-    margin-top: -7px;
+    padding: 0px;
+    button{
+        margin-top: -7px;
+    }
 }
 /* footer */
 #footer{
@@ -41,7 +54,8 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 }
 #carouselResponsiveButton{
     margin: 10px 10px 0px 10px;
-    width: 100%;        
+    width: 100%;  
+    text-align: center;      
 }
 
 @media (max-width: 600px){
@@ -56,4 +70,8 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
     #carouselResponsiveButton{
         display: none   
     }
+}
+/*Tour*/
+.tour-img{
+    text-align: center
 }
