@@ -8,8 +8,11 @@
     </div>
   </slide>
 </carousel>
-<div ng-repeat="slide in slides" id="mainCarouselList">
-  <h2>{{slide.mainText}}</h2>
-  <p>{{slide.text}}</p>
-  <img ng-src="{{slide.image}}" style="margin:auto;">
-</div>
+<div id="mainCarouselList">
+  <div ng-repeat="slide in slides" id="mainCarouselList">
+    <h2>{{slide.mainText}}</h2>
+    <p>{{slide.text}}</p>
+    <img ng-src="{{slide.image}}" style="margin:auto;">
+  </div>
+  <button type="button" class="btn btn-default carouselButton">Find More</button>
+</ul>

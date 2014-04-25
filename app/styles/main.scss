@@ -18,17 +18,21 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
     	padding: 40px;
     	background-color: rgba(black, 0.2);
     }
-    .carouselButton{
-    	padding: 0px 10px;
-		height: 40px;
 
-    }
+}
+.carouselButton{
+    padding: 0px 10px;
+    height: 40px;
 }
 #mainCarouselList{
     img{
         width: 100%;
     }
+    .carouselButton{
+        margin-top:10px;
+    }
 }
+
 @media (max-width: 600px){
     #mainCarousel{
         display: none;
