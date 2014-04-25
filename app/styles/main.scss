@@ -72,6 +72,16 @@ body{
     }
 }
 /*Tour*/
-.tour-img{
+.tourImg{
     text-align: center
+}
+@media (max-width: 992px){
+    .tourImgRight{
+        display: none;
+    }
+}
+@media (min-width: 992px){
+    .tourImgLeft{
+        display: none;
+    }
 }

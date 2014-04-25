@@ -2,5 +2,4 @@
 
 angular.module('clapaApp')
   .controller('TourController', function () {
-
 });
