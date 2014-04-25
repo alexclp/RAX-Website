@@ -14,7 +14,12 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/faq',{
+        templateUrl: 'views/faq.html',
+        controller: 'FaqController'
+      })
       .otherwise({
         redirectTo: '/'
       });
+
   });

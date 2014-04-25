@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('clapaApp')
-  .controller('NavigationController', function ($scope) {
+  .controller('NavigationController', function () {
 
-  });
+});
