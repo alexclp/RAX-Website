@@ -1,7 +1,17 @@
 RAX-Website
 ===========
 
-Github repository for the RAX iOS App.
-The app is available on the AppStore and can be found at https://itunes.apple.com/us/app/rax/id721307202
+This is the repository for RAX's website
 
-![alt tag](http://thenextweb.com/shift/assets/img/app-store.png)
+Installation
+--------------
+* install yeoman
+
+```sh
+npm install -g yo
+```
+* run grunt
+
+```sh
+grunt serve
+```

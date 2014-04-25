@@ -1,0 +1,15 @@
+<div>
+  <div>
+    <carousel>
+      <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+        <div class="carousel-caption">
+          <h2>{{slide.mainText}}</h2>
+          <p>{{slide.text}}</p>
+          <button type="button" class="btn btn-default carouselButton">Find More</button>
+        </div>
+      </slide>
+      
+    </carousel>
+  </div>
+</div>
