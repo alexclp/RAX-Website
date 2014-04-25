@@ -12,7 +12,7 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
     margin-top: -10px;
 }
 /*Main Page*/
-.carousel{
+#mainCarousel{
     margin-top: -20px;
     .carousel-caption{
     	padding: 40px;
@@ -23,9 +23,19 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 		height: 40px;
 
     }
-    @media (max-width: 600px){
-    	.carousel-caption{
-    		display:none;
-    	}
+}
+#mainCarouselList{
+    img{
+        width: 100%;
+    }
+}
+@media (max-width: 600px){
+    #mainCarousel{
+        display: none;
+    }
+}
+@media (min-width: 600px){
+    #mainCarouselList{
+        display: none;
     }
 }
