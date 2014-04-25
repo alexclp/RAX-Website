@@ -18,6 +18,14 @@ angular
         templateUrl: 'views/faq.html',
         controller: 'FaqController'
       })
+      .when('/contact',{
+        templateUrl: 'views/contact.html',
+        controller: 'ContactController'
+      })
+      .when('/tour',{
+        templateUrl: 'views/tour.html',
+        controller: 'TourController'
+      })
       .otherwise({
         redirectTo: '/'
       });
