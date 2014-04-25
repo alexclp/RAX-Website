@@ -6,26 +6,54 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
-/* Custom page header */
+/* header */
 #logo{
     max-height: 40px;
     margin-top: -10px;
 }
+.navigationButton{
+    margin-top: -7px;
+}
+/* footer */
+#footer{
+    border-top: 1px solid #e5e5e5;
+    margin-top: 10px;
+    padding: 10px;
+}
 /*Main Page*/
-.carousel{
+#mainCarousel{
     margin-top: -20px;
     .carousel-caption{
     	padding: 40px;
     	background-color: rgba(black, 0.2);
     }
-    .carouselButton{
-    	padding: 0px 10px;
-		height: 40px;
 
+}
+.carouselButton{
+    @extend .btn-success;
+    padding: 0px 10px;
+    height: 40px;
+}
+#mainCarouselList{
+    img{
+        width: 100%;
     }
-    @media (max-width: 600px){
-    	.carousel-caption{
-    		display:none;
-    	}
+}
+#carouselResponsiveButton{
+    margin: 10px 10px 0px 10px;
+    width: 100%;        
+}
+
+@media (max-width: 600px){
+    #mainCarousel{
+        display: none;
+    }
+}
+@media (min-width: 600px){
+    #mainCarouselList{
+        display: none;
+    }
+    #carouselResponsiveButton{
+        display: none   
     }
 }
