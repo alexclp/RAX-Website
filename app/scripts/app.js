@@ -26,6 +26,10 @@ angular
         templateUrl: 'views/tour.html',
         controller: 'TourController'
       })
+      .when('/preorder',{
+        templateUrl: 'views/preorder.html',
+        controller: 'PreorderController'
+      })
       .otherwise({
         redirectTo: '/'
       });
