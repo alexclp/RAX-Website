@@ -88,7 +88,7 @@
     </div>
     <div class="form-group">
       <label>Choose your payment method:</label>
-      <select name="payementMethod" class="form-control" ng-model="form.payementMethod" required>
+      <select name="paymentMethod" class="form-control" ng-model="form.paymentMethod" required>
         <option value="creditcard">Credit card (Visa, Mastercard, Visa Electron, American Express)</option>
         <option value="paypal">Paypal</option>  
       </select>
@@ -100,6 +100,10 @@
     <div class="form-group" ng-class="{ 'has-error' : (userForm.zipCode.$invalid && !userForm.zipCode.$pristine) }">
       <label>Zip Code</label>
       <input class = "form-control" name="zipCode" type="text" placeholder="Enter first name" ng-model="form.zipCode" required>
+    </div>
+        <div class="form-group" ng-class="{ 'has-error' : (userForm.city.$invalid && !userForm.city.$pristine) }">
+      <label>City</label>
+      <input class = "form-control" name="city" type="text" placeholder="Enter first name" ng-model="form.city" required>
     </div>
     <div class="form-group">
         <label>Country</label>
@@ -198,7 +202,8 @@
         </select>
     </div>
     <button type="submit" class="btn btn-primary" ng-disabled="userForm.$invalid">Submit</button>
+    <p class="bg-success" ng-show="(formSubmitSuccess && formShowMessage)">Your message has been sent!</p>
+    <p class="bg-danger" ng-show="(!formSubmitSuccess && formShowMessage)">There has been an erorr while sending your message! Please try again later!</p>
   </div>
 </form>
-<p class="bg-success" ng-show="(formSubmitSuccess && formShowMessage)">Your message has been sent!</p>
-<p class="bg-danger" ng-show="(!formSubmitSuccess && formShowMessage)">There has been an erorr while sending your message! Please try again later!</p>
+
