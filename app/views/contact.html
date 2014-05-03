@@ -1,31 +1,32 @@
-<form role="form" class="row">
+<form role="form" name="userForm" class="row" novalidate ng-submit="submitForm(userForm.$valid)">
   <div class="col-md-6">
+    <p>All fields are required</p>
+    <div class="form-group" ng-class="{ 'has-error' : (userForm.firstName.$invalid && !userForm.firstName.$pristine) }">
+      <label>First Name</label>
+      <input class = "form-control" name="firstName" type="text" placeholder="Enter first name" ng-model="form.firstName" required>
+    </div>
+    <div class="form-group" ng-class="{ 'has-error' : (userForm.lastName.$invalid && !userForm.lastName.$pristine) }">
+      <label>Last Name</label>
+      <input class = "form-control" name="lastName" type="text" placeholder="Enter last name" ng-model="form.lastName" required>
+    </div>
+    <div class="form-group" ng-class="{ 'has-error' : (userForm.email.$invalid && !userForm.email.$pristine) }">
+      <label>E-mail</label>
+      <input class="form-control" name="email" type="email" placeholder="Enter your email" ng-model="form.email" required ng-minlength="1">
+    </div>
     <div class="form-group">
-      <label for="inputFirstName">First Name</label>
-      <input type="text" class="form-control" id="inputFirstName" placeholder="Enter first name">
-    </div>
-        <div class="form-group">
-      <label for="inputLastName">Last Name</label>
-      <input type="text" class="form-control" id="inputLastName" placeholder="Enter last name">
-    </div>
-        <div class="form-group">
-      <label for="inputEmail">E-mail</label>
-      <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
-    </div>
-    <div class="form-group">
-      <label for="inputSubject">Subject</label>
-      <select name="subject" id="inputSubject" class="form-control">
+      <label>Subject</label>
+      <select name="subject" id="inputSubject" class="form-control" ng-model="form.subject" required>
         <option value="service">General Customer Service</option>
         <option value="suggestions">Suggestions</option>
         <option value="product">Product Support</option>
       </select>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" class="btn btn-primary" ng-disabled="userForm.$invalid">Submit</button>
   </div>
   <div class="col-md-6">
     <div class="form-group">
-      <label for="inputMessage">Message</label>
-      <textarea class="form-control" rows="13" id="inputMessage" placeholder="Enter your message"></textarea>
+      <label>Message</label>
+      <textarea class="form-control" rows="13" id="inputMessage" placeholder="Enter your message" ng-model="form.message" required/>
     </div>
   </div>
 </form>
