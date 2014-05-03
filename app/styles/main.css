@@ -15878,3 +15878,9 @@ body {
     display: none;
   }
 }
+/*Contact*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000389}}
+p.bg-success, p.bg-danger {
+  margin-top: 15px;
+  padding: 15px;
+}

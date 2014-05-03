@@ -84,3 +84,10 @@ body{
         display: none;
     }
 }
+/*Contact*/
+p{
+    &.bg-success , &.bg-danger{
+        margin-top: 15px;
+        padding: 15px;
+    }
+}

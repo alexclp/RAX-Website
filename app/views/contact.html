@@ -30,3 +30,5 @@
     </div>
   </div>
 </form>
+<p class="bg-success" ng-show="(formSubmitSuccess && formShowMessage)">Your message has been sent!</p>
+<p class="bg-danger" ng-show="(!formSubmitSuccess && formShowMessage)">There has been an erorr while sending your message! Please try again later!</p>
