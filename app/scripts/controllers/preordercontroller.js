@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('clapaApp')
-  .controller('PreordercontrollerCtrl', function ($scope) {
+  .controller('PreorderController', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

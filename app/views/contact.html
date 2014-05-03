@@ -1,4 +1,4 @@
-<form role="form" name="userForm" class="row" novalidate ng-submit="submitForm(userForm.$valid)">
+<form role="form" name="userForm" class="row" novalidate ng-submit="submitForm()">
   <div class="col-md-6">
     <p>All fields are required</p>
     <div class="form-group" ng-class="{ 'has-error' : (userForm.firstName.$invalid && !userForm.firstName.$pristine) }">
@@ -15,7 +15,7 @@
     </div>
     <div class="form-group">
       <label>Subject</label>
-      <select name="subject" id="inputSubject" class="form-control" ng-model="form.subject" required>
+      <select name="subject" class="form-control" ng-model="form.subject" required>
         <option value="service">General Customer Service</option>
         <option value="suggestions">Suggestions</option>
         <option value="product">Product Support</option>

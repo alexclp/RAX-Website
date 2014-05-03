@@ -1,20 +1,21 @@
-<form role="form" class="row">
+<form role="form" name="userForm" class="row" novalidate ng-submit="submitForm()">
   <div class="col-md-6 col-md-offset-3">
+    <p>All fields are required</p>
+    <div class="form-group" ng-class="{ 'has-error' : (userForm.firstName.$invalid && !userForm.firstName.$pristine) }">
+      <label>First Name</label>
+      <input class = "form-control" name="firstName" type="text" placeholder="Enter first name" ng-model="form.firstName" required>
+    </div>
+    <div class="form-group" ng-class="{ 'has-error' : (userForm.lastName.$invalid && !userForm.lastName.$pristine) }">
+      <label>Last Name</label>
+      <input class = "form-control" name="lastName" type="text" placeholder="Enter last name" ng-model="form.lastName" required>
+    </div>
+    <div class="form-group" ng-class="{ 'has-error' : (userForm.email.$invalid && !userForm.email.$pristine) }">
+      <label>E-mail</label>
+      <input class="form-control" name="email" type="email" placeholder="Enter your email" ng-model="form.email" required ng-minlength="1">
+    </div>
     <div class="form-group">
-      <label for="inputFirstName">First Name</label>
-      <input type="text" class="form-control" id="inputFirstName" placeholder="Enter first name">
-    </div>
-        <div class="form-group">
-      <label for="inputLastName">Last Name</label>
-      <input type="text" class="form-control" id="inputLastName" placeholder="Enter last name">
-    </div>
-        <div class="form-group">
-      <label for="inputEmail">E-mail</label>
-      <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
-    </div>
-    <div class="form-group">
-      <label for="inputCarMaker">Car's maker name</label>
-      <select name="subject" id="inputCarMaker" class="form-control">
+      <label>Car's maker name</label>
+      <select name="carMaker" class="form-control" ng-model="form.carMaker" required>
         <option value="Acura">Acura</option>
         <option value="Alfa Romeo">Alfa Romeo</option>
         <option value="Aston Martin">Aston Martin</option>
@@ -79,30 +80,30 @@
       </select>
     </div>
     <div class="form-group">
-      <label for="inputCarYear">When was your car made?</label>
-      <select name="subject" id="inputCarYear" class="form-control">
+      <label>When was your car made?</label>
+      <select name="carYear" class="form-control" ng-model="form.carYear" required>
         <option value="greatest">After 2006</option>
         <option value="least">Before 2006</option>          
       </select>
     </div>
     <div class="form-group">
-      <label for="inputPayementMethod">Choose your payment method:</label>
-      <select name="subject" id="inputPayementMethod" class="form-control">
+      <label>Choose your payment method:</label>
+      <select name="payementMethod" class="form-control" ng-model="form.payementMethod" required>
         <option value="creditcard">Credit card (Visa, Mastercard, Visa Electron, American Express)</option>
         <option value="paypal">Paypal</option>  
       </select>
     </div>
-    <div class="form-group">
-      <label for="inputAddress">Full address:</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="Enter your address">
+    <div class="form-group" ng-class="{ 'has-error' : (userForm.fullAdress.$invalid && !userForm.fullAdress.$pristine) }">
+      <label>Full adress</label>
+      <input class = "form-control" name="fullAdress" type="text" placeholder="Enter first name" ng-model="form.fullAdress" required>
+    </div>
+    <div class="form-group" ng-class="{ 'has-error' : (userForm.zipCode.$invalid && !userForm.zipCode.$pristine) }">
+      <label>Zip Code</label>
+      <input class = "form-control" name="zipCode" type="text" placeholder="Enter first name" ng-model="form.zipCode" required>
     </div>
     <div class="form-group">
-      <label for="inputZip">Zip Code</label>
-      <input type="text" class="form-control" id="inputZip" placeholder="Enter your Zip code">
-    </div>
-    <div class="form-group">
-        <label for="inputCountry">Country</label>
-        <select id="inputCountry" class="form-control">
+        <label>Country</label>
+        <select name="country" class="form-control" ng-model="form.country" required>
           <option value="AR">Argentina</option>
           <option value="AU">Australia</option>
           <option value="AT">Austria</option>
@@ -196,6 +197,8 @@
           <option value="VN">Vietnam</option>
         </select>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" class="btn btn-primary" ng-disabled="userForm.$invalid">Submit</button>
   </div>
 </form>
+<p class="bg-success" ng-show="(formSubmitSuccess && formShowMessage)">Your message has been sent!</p>
+<p class="bg-danger" ng-show="(!formSubmitSuccess && formShowMessage)">There has been an erorr while sending your message! Please try again later!</p>
