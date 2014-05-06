@@ -30,6 +30,10 @@ angular
         templateUrl: 'views/preorder.html',
         controller: 'PreorderController'
       })
+      .when('/credits',{
+        templateUrl: 'views/credits.html',
+        controller: 'CreditsController'
+      })
       .otherwise({
         redirectTo: '/'
       });

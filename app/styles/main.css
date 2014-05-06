@@ -15785,29 +15785,29 @@ button.close {
     display: none !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000316}}
 body {
   font-family: 'Roboto', 'sans-serif';
 }
 
 /* header */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000321}}
 #logo {
   max-height: 40px;
   margin-top: -10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000325}}
 .navigationButton {
   height: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000328}}
 .navigationButton button {
   margin-top: -7px;
 }
 
 /* footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000334}}
 #footer {
   border-top: 1px solid #e5e5e5;
   margin-top: 10px;
@@ -15815,28 +15815,28 @@ body {
 }
 
 /*Main Page*/
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000340}}
 #mainCarousel {
   margin-top: -20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000342}}
 #mainCarousel .carousel-caption {
   padding: 40px;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000348}}
 .carouselButton {
   padding: 0px 10px;
   height: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000354}}
 #mainCarouselList img {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000358}}
 #carouselResponsiveButton {
   margin: 10px 10px 0px 10px;
   width: 100%;
@@ -15844,43 +15844,60 @@ body {
 }
 
 @media (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000365}}
   #mainCarousel {
     display: none;
   }
 }
 @media (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000370}}
   #mainCarouselList {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000373}}
   #carouselResponsiveButton {
     display: none;
   }
 }
 /*Tour*/
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000378}}
 .tourImg {
   text-align: center;
 }
 
 @media (max-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000382}}
   .tourImgRight {
     display: none;
   }
 }
 @media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000387}}
   .tourImgLeft {
     display: none;
   }
 }
 /*Contact*/
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000393}}
 p.bg-success, p.bg-danger {
   margin-top: 15px;
   padding: 15px;
+}
+
+/*Credits*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000399}}
+div.avatar {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\00003101}}
+div.avatar .img-avatar {
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  -webkit-border-radius: 150px 150px;
+  -moz-border-radius: 150px / 150px;
+  border-radius: 150px / 150px;
+  width: 300px;
+  height: 300px;
 }
