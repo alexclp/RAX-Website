@@ -1,6 +1,8 @@
 <form role="form" name="userForm" class="row" novalidate ng-submit="submitForm()">
   <div class="col-md-6 col-md-offset-3">
+    <h3>Preorder iConnect now for only 49.99$</h3>
     <p>All fields are required</p>
+
     <div class="form-group" ng-class="{ 'has-error' : (userForm.firstName.$invalid && !userForm.firstName.$pristine) }">
       <label>First Name</label>
       <input class = "form-control" name="firstName" type="text" placeholder="Enter first name" ng-model="form.firstName" required>
