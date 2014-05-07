@@ -15866,13 +15866,13 @@ body {
   text-align: center;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000382}}
   .tourImgRight {
     display: none;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/clapa\/app\/styles\/main\.scss}line{font-family:\0000387}}
   .tourImgLeft {
     display: none;
