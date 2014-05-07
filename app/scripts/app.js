@@ -30,7 +30,7 @@ angular
         templateUrl: 'views/preorder.html',
         controller: 'PreorderController'
       })
-      .when('/credits',{
+      .when('/team',{
         templateUrl: 'views/credits.html',
         controller: 'CreditsController'
       })
