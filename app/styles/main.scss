@@ -1,5 +1,4 @@
 $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
-
 @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
 
 // bower:scss
@@ -22,6 +21,7 @@ body{
     font-weight: 300;
 }
 //Header
+
 #logo{
     max-height: 40px;
     margin-top: -10px;
@@ -108,7 +108,7 @@ div.avatar{
         width:300px;
         height:300px;
         &:hover{
-           @include box-shadow(rgba(blue, 0.4) 0 0 25px, rgba(blue, 0.2) 0 0 1px 1px inset);  
+           @include box-shadow(rgba(gray, 0.4) 0 0 25px, rgba(gray, 0.2) 0 0 1px 1px inset);  
         }
     }
 }
