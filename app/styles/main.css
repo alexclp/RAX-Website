@@ -15842,59 +15842,58 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000362}}
 #carouselResponsiveButton {
-  margin: 10px 10px 0px 10px;
   width: 100%;
   text-align: center;
 }
 
 @media (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000368}}
   #mainCarousel {
     display: none;
   }
 }
 @media (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000373}}
   #mainCarouselList {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000376}}
   #carouselResponsiveButton {
     display: none;
   }
 }
 /*Tour*/
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000381}}
 .tourImg {
   text-align: center;
 }
 
 @media (max-width: 765px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000385}}
   .tourImgRight {
     display: none;
   }
 }
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000390}}
   .tourImgLeft {
     display: none;
   }
 }
 /*Contact*/
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\0000396}}
 p.bg-success, p.bg-danger {
   margin-top: 15px;
   padding: 15px;
 }
 
 /*Credits*/
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\00003102}}
 div.avatar {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\00003104}}
 div.avatar .img-avatar {
   -webkit-border-radius: 150px 150px;
   -moz-border-radius: 150px / 150px;
@@ -15902,7 +15901,7 @@ div.avatar .img-avatar {
   width: 300px;
   height: 300px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Vlad\/Desktop\/RAX-Website\/app\/styles\/main\.scss}line{font-family:\00003109}}
 div.avatar .img-avatar:hover {
   -webkit-box-shadow: rgba(128, 128, 128, 0.4) 0 0 25px, rgba(128, 128, 128, 0.2) 0 0 1px 1px inset;
   -moz-box-shadow: rgba(128, 128, 128, 0.4) 0 0 25px, rgba(128, 128, 128, 0.2) 0 0 1px 1px inset;
